@@ -2,44 +2,44 @@
 package Sup_person;
 
 class Student {
-    private String name;
-    private int YearBirth;
-    private String major;
+             private String name;
+             private int YearBirth;
+             private String major;
 
     // Constructor
     public Student(String name, int YearBirth , String major) {
-        this.name = name;
-        this.YearBirth = YearBirth;
-        this.major = major;
+             this.name = name;
+             this.YearBirth = YearBirth;
+             this.major = major;
     }
 
     // Getters and Setters
     public String getName() {
-        return name;
+             return name;
     }
 
     public void setName(String name) {
-        this.name = name;
+             this.name = name;
     }
 
     public int getYearBirth() {
-        return YearBirth;
+             return YearBirth;
     }
 
     public void setYearBirth(int YearBirth) {
-        this.YearBirth = YearBirth;
+             this.YearBirth = YearBirth;
     }
 
     public String getMajor() {
-        return major;
+             return major;
     }
 
     public void setMajor(String major) {
-        this.major = major;
+             this.major = major;
     }
 
    
     public String toString() {
-        return "Name: " + name + "\nYearBirth: " + YearBirth + "\nMajor: " + major ;
+             return "Name: " + name + "\nYearBirth: " + YearBirth + "\nMajor: " + major ;
     }
 }
